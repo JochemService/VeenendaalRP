@@ -40,7 +40,6 @@ module.exports = {
     }
 }
 
-
-var role = member.guild.roles.find("name", "Member");
-
-member.addRole(role);
+module.exports.help = {
+    name: "love"
+}
