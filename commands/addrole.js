@@ -5,7 +5,7 @@ module.exports.run = async (bot, message, arguments) => {
 
     var role = member.guild.roles.find("name", "🏡 Bezoeker VeenendaalRP");
 
-    member.addRole(role);
+    return member.addRole(role);
 
 }
 
