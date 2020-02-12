@@ -25,7 +25,7 @@ module.exports.run = async (bot, message, args) => {
         .addField("Reden", reason)
         .setFooter(message.createdAt);
 
-    var channelReport = message.guild.channels.find("name", "🔰staff-mededelingen");
+    var channelReport = message.guild.channels.find("name", "📖bot-warns");
     if (!channelReport) return message.channel.send("Kan het kanaal niet vinden");
 
     // ZORG VOOR ADMINISTRATOR RECHTEN OP BOT.
