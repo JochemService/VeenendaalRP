@@ -48,11 +48,11 @@ bot.on('message', message => {
 bot.on("guildMemberAdd", member => {
 
 
-    const channel = member.guild.channels.find("name", "👋welkom");
+    const channel = member.guild.channels.find("name", "👋🏻nieuwe-leden");
 
     if(!channel) return;
 
-    channel.send(`Hey ${member}, welkom op **Nieuwdijk**. Voor vragen maak een ticket aan. En voor de rest maak veel plezier:tada::hugging:!`);
+    channel.send(`Hey ${member}, welkom in **VeenendaalRP**. lees nu ⛔ingame-regels . en heb voor de rest veel plezier:tada::hugging:!`);
 
 });
 
