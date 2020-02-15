@@ -52,7 +52,7 @@ bot.on("guildMemberAdd", member => {
 
     if(!channel) return;
 
-    channel.send(`Hey ${member}, welkom in **VeenendaalRP**. lees nu ⛔ingame-regels . en heb voor de rest veel plezier:tada::hugging:!`);
+    channel.send(`Hey ${member}, welkom in **VeenendaalRP**. lees nu #⛔ingame-regels . en heb voor de rest veel plezier:tada::hugging:!`);
 
 });
 
